@@ -64,7 +64,7 @@ find "$DEST" -type f -name "marzban-backup.zip" -mtime +7 -delete
 ###
 <h3 align="right">مرحله سوم</h3>
 <h3 align="right">ساخت ربات تلگرام و دریافت API Token</h3>
-
+<p align="right">در https://t.me/BotFather یک ربات بسازید و توکن API آن را در قسمت BOT_TOKEN بین "" قرار دهید</p>
 ###
 <h3 align="right">مرحله سوم</h3>
 <h3 align="right">با دستور زیر فایل marzban-backup.sh را بسازید</h3>
