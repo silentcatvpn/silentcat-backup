@@ -1,4 +1,4 @@
-<h1 align="right">🐾 SilentCat Marzban Backup</h1>
+<h1 align="right">Silent Cat Backup</h1>
 
 <p align="center">
  <a href="./README.md">
@@ -26,7 +26,7 @@
 
 ###
 
-<h3 align="right">رو بسازید marzban-backup.sh با دستور زیر فایل </h3>
+<h3 align="right">با دستور زیر فایل marzban-backup.sh را بسازید</h3>
   
 ```bash
 nano /usr/local/bin/marzban-backup.sh
