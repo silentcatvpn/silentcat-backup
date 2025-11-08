@@ -1,16 +1,12 @@
 <h1 align="right">Silent Cat Backup</h1>
-
 <br clear="both">
 
 <p align="right">اسکریپت SilentCat Marzban Backup به‌صورت خودکار طبق زمان بندی شما از فایل‌های مهم مرزبان بک‌آپ می‌گیرد و آن را از طریق تلگرام برای شما ارسال می‌کند.</p>
-
 <br clear="both">
 
 <p align="left">‏<br>‏</p>
 
 <h1 align="right">آموزش پیکربندی</h1>
-
-###
 <h3 align="right">مرحله اول</h3>
 <h3 align="right">با دستور زیر فایل marzban-backup.sh را بسازید</h3>
   
@@ -53,12 +49,14 @@ find "$DEST" -type f -name "marzban-backup.zip" -mtime +7 -delete
 <h3 align="right">مرحله سوم</h3>
 <h3 align="right">ساخت ربات تلگرام و دریافت API Token</h3>
 <p align="right">در https://t.me/BotFather یک ربات بسازید و توکن API آن را در قسمت BOT_TOKEN بین "" قرار دهید</p>
-###
+<br clear="both">
+
 <h3 align="right">مرحله چهارم</h3>
 <h3 align="right">دریافت Chat ID</h3>
 <p align="right">رای دریافت Chat ID خود یک پیام از خود به ربات https://t.me/userinfobot فروارد کنید، سپس Chat ID خود را در قسمت CHAT_ID بین ""  قرار دهید</p>
 <p align="right">سپس ctrl+s برای ذخیره سازی و ctrl+x برای خروج را بزنید</p>
-###
+<br clear="both">
+
 <h3 align="right">مرحله پنجم</h3>
 <h3 align="right">با دستور زیر مجوز اجرا فایل marzban-backup.sh رو صادر کن</h3>
   
