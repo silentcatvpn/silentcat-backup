@@ -7,7 +7,7 @@
 
 <h1 align="right">آموزش پیکربندی</h1>
 <h3 align="right">مرحله اول</h3>
-<h3 align="right">با دستور زیر فایل marzban-backup.sh را بسازید</h3>
+<h3 align="right">با اجرای دستور زیر، فایل marzban-backup.sh را ایجاد کنید</h3>
   
 ```bash
 nano /usr/local/bin/marzban-backup.sh
@@ -47,7 +47,7 @@ find "$DEST" -type f -name "marzban-backup.zip" -mtime +7 -delete
 
 <h3 align="right">مرحله سوم</h3>
 <h3 align="right">ساخت ربات تلگرام و دریافت API Token</h3>
-<p align="right">در https://t.me/BotFather یک ربات بسازید و توکن API آن را در قسمت BOT_TOKEN بین "" قرار دهید</p>
+<p align="right">به آدرس https://t.me/botfather مراجعه کنید</p>
 <br clear="both">
 
 <h3 align="right">مرحله چهارم</h3>
