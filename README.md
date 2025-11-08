@@ -22,18 +22,14 @@
 
 ###
 
-<h1 align="right">چطور کار می‌کند</h1>
+<h1 align="right">آموزش پیکربندی</h1>
 
 ###
 
-<h3 align="right">قدم اول : اسکریپت را اجرا کنید</h3>
-
-###
-
-<p align="right">ابتدا این دستور را روی سرور خود اجرا می کنید</p>
+<h3 align="right">رو بسازید marzban-backup.sh با دستور زیر فایل </h3>
   
 ```bash
-bash <(curl -Ls https://github.com/silentcatvpn/silentcat-backup/main/install-backup.sh)
+nano /usr/local/bin/marzban-backup.sh
 ``` 
 
 ###
