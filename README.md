@@ -84,7 +84,11 @@ chmod +x /usr/local/bin/marzban-backup.sh
 ```bash
 crontab -e
 ``` 
-<h3 align="right">حالا این رو به خط آخرش اضافه کن</h3>
+###
+<h3 align="right">حالا اینو به خط آخرش اضافه کن</h3>
+  
 ```bash
 0 */12 * * * /usr/local/bin/marzban-backup.sh >/dev/null 2>&1
 ``` 
+<p align="right">به صورت پیش فرض روی 12 ساعت تنظیم شده ولی در صورت تمایل میتونید تعیین کنید هر چند ساعت بک‌آپ برای شما ارسال بشه</p>
+###
