@@ -25,13 +25,19 @@
 <h1 align="right">آموزش پیکربندی</h1>
 
 ###
-
+<h3 align="right">مرحله اول</h3>
 <h3 align="right">با دستور زیر فایل marzban-backup.sh را بسازید</h3>
   
 ```bash
 nano /usr/local/bin/marzban-backup.sh
 ``` 
 
+###
+<h3 align="right">با دستور زیر فایل marzban-backup.sh را بسازید</h3>
+  
+```bash
+nano /usr/local/bin/marzban-backup.sh
+``` 
 ###
 
 <h3 align="right">قدم دوم : تنظیم توکن</h3>
