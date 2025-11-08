@@ -15,7 +15,7 @@
 
 <h1 align="left">Configuration Guide</h1>
 <h3 align="left">Step One</h3>
-<h3 align="left">Create the `marzban-backup.sh` file by running the following command</h3>
+<h3 align="left">Create the 'marzban-backup.sh' file by running the following command</h3>
   
 ```bash
 nano /usr/local/bin/marzban-backup.sh
