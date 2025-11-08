@@ -86,5 +86,3 @@ crontab -e
 ```bash
 bash -x /usr/local/bin/marzban-backup.sh
 ``` 
-<p align="left">‏<br>‏</p>
-پشتیبانی
