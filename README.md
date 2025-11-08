@@ -66,36 +66,36 @@ find "$DEST" -type f -name "marzban-backup.zip" -mtime +7 -delete
 <p align="left">Press Ctrl+S to save the file and Ctrl+X to exit the editor</p>
 <br clear="both">
 
-<h3 align="right">مرحله پنجم</h3>
-<h3 align="right">با اجرای دستور زیر، مجوز اجرای فایل marzban-backup.sh صادر می‌شود</h3>
+<h3 align="left">Step Five</h3>
+<h3 align="left">By running the following command, execution permission is granted to the `marzban-backup.sh` file</h3>
   
 ```bash
 chmod +x /usr/local/bin/marzban-backup.sh
 ``` 
 <br clear="both">
 
-<h3 align="right">مرحله آخر</h3>
-<h3 align="right">برای تنظیم کرون جاب و اجرای خودکار اسکریپت، دستور زیر را اجرا کنید</h3>
+<h3 align="left">Final Step</h3>
+<h3 align="left">To set up a cron job and run the script automatically, execute the following command</h3>
   
 ```bash
 crontab -e
 ``` 
 <br clear="both">
 
-<h3 align="right">در انتهای فایل کرون، دستور زیر را اضافه کنید</h3>
+<h3 align="left">At the end of the cron file, add the following line</h3>
   
 ```bash
 0 */12 * * * /usr/local/bin/marzban-backup.sh >/dev/null 2>&1
 ``` 
-<p align="right">به‌صورت پیش‌فرض، این دستور هر ۱۲ ساعت یک‌بار اجرا می‌شود. در صورت تمایل، می‌توانید بازه زمانی دلخواه برای اجرای بک‌آپ را مشخص کنید</p>
-<p align="right">پس از افزودن دستور، با فشردن Ctrl+S فایل را ذخیره و با فشردن Ctrl+X از ویرایشگر خارج شوید</p>
+<p align="left">By default, this command runs every 12 hours. If desired, you can adjust the interval for the backups</p>
+<p align="left">After adding the line, press Ctrl+S to save the file and Ctrl+X to exit the editor</p>
 <br clear="both">
 
-<h3 align="right">برای اجرای دستی و بررسی عملکرد اسکریپت، می‌توانید دستور زیر را اجرا کنید</h3>
+<h3 align="left">To run the script manually and verify its operation, you can execute the following command</h3>
   
 ```bash
 bash -x /usr/local/bin/marzban-backup.sh
 ``` 
-<h1 align="right">پشتیبانی</h1>
-<p align="right">برای دریافت راهنمایی یا حل مشکلات، با پشتیبانی از طریق تلگرام در ارتباط باشید</p>
-<p align="right">https://t.me/silentcatsupport</p>
+<h1 align="left">Support</h1>
+<p align="left">For guidance or troubleshooting, contact support via Telegram</p>
+<p align="left">https://t.me/silentcatsupport</p>
