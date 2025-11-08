@@ -1,4 +1,4 @@
-<h1 align="right">Silent Cat Backup</h1>
+<h1 align="left">Silent Cat Backup</h1>
 <br clear="both">
 
 <p align="right">اسکریپت SilentCat Marzban Backup به‌صورت خودکار طبق زمان بندی شما از فایل‌های مهم مرزبان بک‌آپ می‌گیرد و آن را از طریق تلگرام برای شما ارسال می‌کند.</p>
