@@ -15,15 +15,15 @@
 
 <h1 align="left">Configuration Guide</h1>
 <h3 align="left">Step One</h3>
-<h3 align="left">Create the 'marzban-backup.sh' file by running the following command</h3>
+<h3 align="left">Create the marzban-backup.sh file by running the following command</h3>
   
 ```bash
 nano /usr/local/bin/marzban-backup.sh
 ``` 
 <br clear="both">
 
-<h3 align="right">مرحله دوم</h3>
-<h3 align="right">محتوای زیر را در فایل  باز شده قرار دهید</h3>
+<h3 align="left">Step Two</h3>
+<h3 align="left">Place the following content into the opened file</h3>
   
 ```bash
 #!/bin/bash
@@ -53,11 +53,11 @@ find "$DEST" -type f -name "marzban-backup.zip" -mtime +7 -delete
 ``` 
 <br clear="both">
 
-<h3 align="right">مرحله سوم</h3>
-<h3 align="right">ساخت ربات تلگرام و دریافت API Token</h3>
-<p align="right"> به آدرس https://t.me/botfather مراجعه کنید</p>
-<p align="right">یک ربات جدید بسازید</p>
-<p align="right">توکن API دریافتی را در فایل marzban-backup.sh در قسمت BOT_TOKEN بین ("") قرار دهید</p>
+<h3 align="left">Step Three</h3>
+<h3 align="left">Creating a Telegram Bot and Obtaining the API Token</h3>
+<p align="left">Visit https://t.me/botfather</p>
+<p align="left">Create a new bot</p>
+<p align="left">Place the received API token in the marzban-backup.sh file in the BOT_TOKEN field between the quotes ("")</p>
 <br clear="both">
 
 <h3 align="right">مرحله چهارم</h3>
