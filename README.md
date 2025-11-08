@@ -32,12 +32,38 @@
 nano /usr/local/bin/marzban-backup.sh
 ``` 
 ###
+<h3 align="right">مرحله دوم</h3>
+<h3 align="right">محتوای زیر را در فایل  باز شده قرار دهید</h3>
+  
+```bash
+#!/bin/bash
 
-<h3 align="right">قدم دوم : تنظیم توکن</h3>
+SRC1="/opt/marzban"
+SRC2="/var/lib/marzban"
+DEST="/var/backups"
+mkdir -p "$DEST"
 
+FILENAME="marzban-backup.zip"
+FILEPATH="${DEST}/${FILENAME}"
+
+if ! command -v zip &> /dev/null; then
+    apt update -y && apt install zip -y
+fi
+
+rm -f "$FILEPATH"
+zip -r "$FILEPATH" "$SRC1" "$SRC2" >/dev/null 2>&1
+
+BOT_TOKEN=""
+CHAT_ID=""
+CAPTION="Created by @silentcatvpn"
+
+curl -s -F chat_id="$CHAT_ID" -F document=@"$FILEPATH" -F caption="$CAPTION" "https://api.telegram.org/bot${BOT_TOKEN}/sendDocument" >/dev/null 2>&1
+
+find "$DEST" -type f -name "marzban-backup.zip" -mtime +7 -delete
+``` 
 ###
 
-<p align="right">سپس از ما توکن ربات می خواهد، شما باید یک ربات از https://t.me/BotFather بسازید و توکن را بدهید.</p>
+<p align="right">سپس از ما توکن ربات می خواهد، شما باید یک ربات از https://t.me/BotFather بسازید و توکن را بدهید</p>
 
 ###
 
