@@ -72,7 +72,7 @@ crontab -e
 ``` 
 <br clear="both">
 
-<h3 align="right">حالا اینو به خط آخرش اضافه کن</h3>
+<h3 align="right">اسپس در خط آخر اینو اضافه کن</h3>
   
 ```bash
 0 */12 * * * /usr/local/bin/marzban-backup.sh >/dev/null 2>&1
