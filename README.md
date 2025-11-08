@@ -59,7 +59,7 @@ find "$DEST" -type f -name "marzban-backup.zip" -mtime +7 -delete
 <br clear="both">
 
 <h3 align="right">مرحله پنجم</h3>
-<h3 align="right">با اجرای دستور زیر، اجازه اجرای فایل marzban-backup.sh صادر می‌شود</h3>
+<h3 align="right">با اجرای دستور زیر، مجوز اجرای فایل marzban-backup.sh صادر می‌شود</h3>
   
 ```bash
 chmod +x /usr/local/bin/marzban-backup.sh
