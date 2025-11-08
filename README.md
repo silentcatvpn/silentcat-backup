@@ -67,7 +67,7 @@ chmod +x /usr/local/bin/marzban-backup.sh
 <br clear="both">
 
 <h3 align="right">مرحله آخر</h3>
-<h3 align="right">برای ویرایش کرون جاب‌ها، دستور زیر را اجرا کنید</h3>
+<h3 align="right">برای تنظیم کرون جاب و اجرای خودکار اسکریپت، دستور زیر را اجرا کنید</h3>
   
 ```bash
 crontab -e
