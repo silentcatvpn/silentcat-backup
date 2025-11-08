@@ -54,7 +54,8 @@ find "$DEST" -type f -name "marzban-backup.zip" -mtime +7 -delete
 
 <h3 align="right">مرحله چهارم</h3>
 <h3 align="right">دریافت Chat ID</h3>
-<p align="right">برای دریافت Chat ID خود یک پیام از خود به ربات https://t.me/userinfobot فروارد کنید، سپس Chat ID خود را در قسمت CHAT_ID بین ""  قرار دهید</p>
+<p align="right">یک پیام از خود به ربات UserInfoBot
+ فوروارد کنید و Chat ID دریافتی را در قسمت CHAT_ID بین ("") وارد کنید</p>
 <p align="right">با فشردن Ctrl+S فایل را ذخیره و با فشردن Ctrl+X از ویرایشگر خارج شوید</p>
 <br clear="both">
 
