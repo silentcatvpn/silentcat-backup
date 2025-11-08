@@ -65,14 +65,16 @@ find "$DEST" -type f -name "marzban-backup.zip" -mtime +7 -delete
 ```bash
 chmod +x /usr/local/bin/marzban-backup.sh
 ``` 
-###
+<br clear="both">
+
 <h3 align="right">مرحله ششم</h3>
 <h3 align="right">برای تنظیم کرون جاب ابتدا دستور زیر رو بزن</h3>
   
 ```bash
 crontab -e
 ``` 
-###
+<br clear="both">
+
 <h3 align="right">حالا اینو به خط آخرش اضافه کن</h3>
   
 ```bash
