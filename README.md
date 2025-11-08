@@ -10,7 +10,7 @@
 </p>
 <br clear="both">
 
-<p align="right">اسکریپت Silent Cat Backup به‌صورت خودکار طبق زمان بندی شما از فایل‌های مهم مرزبان مانند دیتابیس بک‌آپ می‌گیرد و آن را از طریق تلگرام برای شما ارسال می‌کند.</p>
+<p align="left">The Silent Cat Backup script automatically takes backups of important Marzban files, such as the database, according to your schedule and sends them to you via Telegram</p>
 <p align="left">‏<br>‏</p>
 
 <h1 align="right">آموزش پیکربندی</h1>
