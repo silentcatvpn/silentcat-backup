@@ -31,13 +31,6 @@
 ```bash
 nano /usr/local/bin/marzban-backup.sh
 ``` 
-
-###
-<h3 align="right">با دستور زیر فایل marzban-backup.sh را بسازید</h3>
-  
-```bash
-nano /usr/local/bin/marzban-backup.sh
-``` 
 ###
 
 <h3 align="right">قدم دوم : تنظیم توکن</h3>
@@ -55,3 +48,9 @@ nano /usr/local/bin/marzban-backup.sh
 <p align="right">سپس از ما یک چت آیدی می‌خواهد و برای دریافت چت آیدی یا کانالی که برای پشتیبان‌گیری اختصاص داده‌اید، باید یک پیام از خود یا کانال به این ربات https://t.me/userinfobot فوروارد کنید که این ربات چت آیدی را بهتون بده</p>
 
 ###
+<h3 align="right">مرحله سوم</h3>
+<h3 align="right">با دستور زیر فایل marzban-backup.sh را بسازید</h3>
+  
+```bash
+nano /usr/local/bin/marzban-backup.sh
+``` 
