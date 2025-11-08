@@ -55,15 +55,15 @@ find "$DEST" -type f -name "marzban-backup.zip" -mtime +7 -delete
 
 <h3 align="left">Step Three</h3>
 <h3 align="left">Creating a Telegram Bot and Obtaining the API Token</h3>
-<p align="left">Visit https://t.me/botfather</p>
+<p align="left">Go to https://t.me/botfather</p>
 <p align="left">Create a new bot</p>
 <p align="left">Place the received API token in the marzban-backup.sh file in the BOT_TOKEN field between the quotes ("")</p>
 <br clear="both">
 
-<h3 align="right">مرحله چهارم</h3>
-<h3 align="right">دریافت Chat ID</h3>
-<p align="right">یک پیام از خود به ربات https://t.me/userinfobot فوروارد کنید و Chat ID دریافتی را در قسمت CHAT_ID بین ("") وارد کنید</p>
-<p align="right">با فشردن Ctrl+S فایل را ذخیره و با فشردن Ctrl+X از ویرایشگر خارج شوید</p>
+<h3 align="left">Step Four</h3>
+<h3 align="left">Obtaining the Chat ID</h3>
+<p align="left">Forward a message from yourself to the bot https://t.me/userinfobot and enter the received Chat ID in the CHAT_ID field between the quotes ("")</p>
+<p align="left">Press Ctrl+S to save the file and Ctrl+X to exit the editor</p>
 <br clear="both">
 
 <h3 align="right">مرحله پنجم</h3>
