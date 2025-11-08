@@ -13,9 +13,9 @@
 <p align="left">The Silent Cat Backup script automatically takes backups of important Marzban files, such as the database, according to your schedule and sends them to you via Telegram</p>
 <p align="left">‏<br>‏</p>
 
-<h1 align="right">آموزش پیکربندی</h1>
-<h3 align="right">مرحله اول</h3>
-<h3 align="right">با اجرای دستور زیر، فایل marzban-backup.sh را ایجاد کنید</h3>
+<h1 align="left">Configuration Guide</h1>
+<h3 align="left">Step One</h3>
+<h3 align="right">Create the `marzban-backup.sh` file by running the following command</h3>
   
 ```bash
 nano /usr/local/bin/marzban-backup.sh
