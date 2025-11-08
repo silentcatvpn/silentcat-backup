@@ -49,12 +49,12 @@ find "$DEST" -type f -name "marzban-backup.zip" -mtime +7 -delete
 <h3 align="right">ساخت ربات تلگرام و دریافت API Token</h3>
 <p align="right"> به آدرس https://t.me/botfather مراجعه کنید</p>
 <p align="right">یک ربات جدید بسازید</p>
-<p align="right">توکن API دریافتی را در فایل marzban-backup.sh در قسمت BOT_TOKEN، بین ("") قرار دهید</p>
+<p align="right">توکن API دریافتی را در فایل marzban-backup.sh در قسمت BOT_TOKEN بین ("") قرار دهید</p>
 <br clear="both">
 
 <h3 align="right">مرحله چهارم</h3>
 <h3 align="right">دریافت Chat ID</h3>
-<p align="right">یک پیام از خود به ربات https://t.me/userinfobot فوروارد کنید و Chat ID دریافتی را در قسمت CHAT_ID بین ("") وارد کنیn</p>
+<p align="right">یک پیام از خود به ربات https://t.me/userinfobot فوروارد کنید و Chat ID دریافتی را در قسمت CHAT_ID بین ("") وارد کنید</p>
 <p align="right">با فشردن Ctrl+S فایل را ذخیره و با فشردن Ctrl+X از ویرایشگر خارج شوید</p>
 <br clear="both">
 
