@@ -67,7 +67,7 @@ find "$DEST" -type f -name "marzban-backup.zip" -mtime +7 -delete
 <br clear="both">
 
 <h3 align="left">Step Five</h3>
-<h3 align="left">By running the following command, execution permission is granted to the `marzban-backup.sh` file</h3>
+<h3 align="left">By running the following command, execution permission is granted to the marzban-backup.sh file</h3>
   
 ```bash
 chmod +x /usr/local/bin/marzban-backup.sh
