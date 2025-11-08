@@ -31,7 +31,8 @@
 ```bash
 nano /usr/local/bin/marzban-backup.sh
 ``` 
-###
+<br clear="both">
+
 <h3 align="right">مرحله دوم</h3>
 <h3 align="right">محتوای زیر را در فایل  باز شده قرار دهید</h3>
   
@@ -61,7 +62,8 @@ curl -s -F chat_id="$CHAT_ID" -F document=@"$FILEPATH" -F caption="$CAPTION" "ht
 
 find "$DEST" -type f -name "marzban-backup.zip" -mtime +7 -delete
 ``` 
-###
+<br clear="both">
+
 <h3 align="right">مرحله سوم</h3>
 <h3 align="right">ساخت ربات تلگرام و دریافت API Token</h3>
 <p align="right">در https://t.me/BotFather یک ربات بسازید و توکن API آن را در قسمت BOT_TOKEN بین "" قرار دهید</p>
