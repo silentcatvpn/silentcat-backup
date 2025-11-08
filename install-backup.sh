@@ -27,22 +27,22 @@ read -p "ساعت اجرای بکاپ را (0 تا 23) وارد کنید: " BACK
 # Create backup script
 BACKUP_SCRIPT="/usr/local/bin/silentcat-backup.sh"
 
-cat <<EOF > "$BACKUP_SCRIPT"
+cat <<'EOF' > "$BACKUP_SCRIPT"
 #!/bin/bash
 SRC1="/opt/marzban"
 SRC2="/var/lib/marzban"
 DEST="/var/backups"
-mkdir -p "\$DEST"
+mkdir -p "$DEST"
 
 FILENAME="marzban-backup.zip [by silentcat]"
-FILEPATH="\${DEST}/\${FILENAME}"
+FILEPATH="${DEST}/${FILENAME}"
 
 cd /
-zip -r "\$FILEPATH" "\$SRC1" "\$SRC2" >/dev/null 2>&1
+zip -r "$FILEPATH" "$SRC1" "$SRC2" >/dev/null 2>&1
 
-curl -s -F chat_id="$CHAT_ID" -F document=@"\$FILEPATH" -F caption="Created by @silentcatsupport" "https://api.telegram.org/bot$BOT_TOKEN/sendDocument" >/dev/null 2>&1
+curl -s -F chat_id="$CHAT_ID" -F document=@"$FILEPATH" -F caption="Created by @silentcatsupport" "https://api.telegram.org/bot$BOT_TOKEN/sendDocument" >/dev/null 2>&1
 
-find "\$DEST" -type f -name "marzban-backup.zip*" -mtime +7 -delete >/dev/null 2>&1
+find "$DEST" -type f -name "marzban-backup.zip*" -mtime +7 -delete >/dev/null 2>&1
 EOF
 
 chmod +x "$BACKUP_SCRIPT"
