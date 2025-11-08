@@ -53,7 +53,7 @@ find "$DEST" -type f -name "marzban-backup.zip" -mtime +7 -delete
 <h3 align="right">مرحله چهارم</h3>
 <h3 align="right">دریافت Chat ID</h3>
 <p align="right">برای دریافت Chat ID خود یک پیام از خود به ربات https://t.me/userinfobot فروارد کنید، سپس Chat ID خود را در قسمت CHAT_ID بین ""  قرار دهید</p>
-<p align="right">سپس ctrl+s برای ذخیره سازی و ctrl+x برای خروج را بزنید</p>
+<p align="right">با فشردن Ctrl+S فایل را ذخیره و با فشردن Ctrl+X از ویرایشگر خارج شوید</p>
 <br clear="both">
 
 <h3 align="right">مرحله پنجم</h3>
@@ -72,16 +72,16 @@ crontab -e
 ``` 
 <br clear="both">
 
-<h3 align="right">اسپس در خط آخر اینو اضافه کن</h3>
+<h3 align="right">ادر انتهای فایل، دستور زیر را اضافه کنید</h3>
   
 ```bash
 0 */12 * * * /usr/local/bin/marzban-backup.sh >/dev/null 2>&1
 ``` 
-<p align="right">به صورت پیش فرض روی ۱۲ ساعت تنظیم شده ولی در صورت تمایل میتونید تعیین کنید هر چند ساعت بک‌آپ براتون ارسال بشه</p>
+<p align="right">به‌صورت پیش‌فرض، این دستور هر ۱۲ ساعت یک‌بار اجرا می‌شود. در صورت تمایل، می‌توانید بازه زمانی دلخواه برای اجرای بک‌آپ را مشخص کنید</p>
 <p align="right">سپس ctrl+s برای ذخیره سازی و ctrl+x برای خروج را بزنید</p>
 <br clear="both">
 
-<h3 align="right">برای دریافت بک‌آپ لحظه ای، دستور زیر را وارد کنید</h3>
+<h3 align="right">پس از افزودن دستور، با فشردن Ctrl+S فایل را ذخیره و با فشردن Ctrl+X از ویرایشگر خارج شوید</h3>
   
 ```bash
 bash -x /usr/local/bin/marzban-backup.sh
