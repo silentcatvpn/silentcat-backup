@@ -96,3 +96,6 @@ crontab -e
 ```bash
 bash -x /usr/local/bin/marzban-backup.sh
 ``` 
+<h1 align="right">پشتیبانی</h1>
+<h3 align="right">برای دریافت راهنمایی یا حل مشکلات، با پشتیبانی از طریق تلگرام در ارتباط باشید</h3>
+<h3 align="right">https://t.me/silentcatsupport</h3>
