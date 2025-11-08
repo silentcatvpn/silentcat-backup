@@ -16,7 +16,7 @@
 <h1 align="right">آموزش پیکربندی</h1>
 <h3 align="right">مرحله اول</h3>
 <h3 align="right">با اجرای دستور زیر، فایل marzban-backup.sh را ایجاد کنید</h3>
-  
+ 
 ```bash
 nano /usr/local/bin/marzban-backup.sh
 ``` 
