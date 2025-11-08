@@ -62,16 +62,8 @@ curl -s -F chat_id="$CHAT_ID" -F document=@"$FILEPATH" -F caption="$CAPTION" "ht
 find "$DEST" -type f -name "marzban-backup.zip" -mtime +7 -delete
 ``` 
 ###
-
-<p align="right">سپس از ما توکن ربات می خواهد، شما باید یک ربات از https://t.me/BotFather بسازید و توکن را بدهید</p>
-
-###
 <h3 align="right">مرحله سوم</h3>
-<h3 align="right">ساخت ربات تلگرام، دریافت توکن API و دریافت آیدی عددی</h3>
-<p align="right">در https://t.me/BotFather یک ربات بسازید و توکن API آن را در قسمت BOT_TOKEN بین "" قرار دهید، سپس برای دریافت آیدی عددی خود یک پیام از خود به ربات https://t.me/userinfobot فروارد کنید، سپس آیدی عددی خود را در قسمت CHAT_ID بین "" کد قرار دهید، سپس ctrls+s برای ذخیره سازی و ctrl+x برای خروج را بزنید</p>
-###
-
-<p align="right">سپس از ما یک چت آیدی می‌خواهد و برای دریافت چت آیدی یا کانالی که برای پشتیبان‌گیری اختصاص داده‌اید، باید یک پیام از خود یا کانال به این ربات https://t.me/userinfobot فوروارد کنید که این ربات چت آیدی را بهتون بده</p>
+<h3 align="right">ساخت ربات تلگرام و دریافت API Token</h3>
 
 ###
 <h3 align="right">مرحله سوم</h3>
