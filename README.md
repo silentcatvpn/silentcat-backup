@@ -62,7 +62,7 @@ find "$DEST" -type f -name "marzban-backup.zip" -mtime +7 -delete
 
 <h3 align="left">Step Four</h3>
 <h3 align="left">Obtaining the Chat ID</h3>
-<p align="left">Forward a message from yourself to the bot https://t.me/userinfobot and enter the received Chat ID in the CHAT_ID field between the quotes ("")</p>
+<p align="left">Forward a message from yourself to the https://t.me/userinfobot and enter the received Chat ID in the CHAT_ID field between the quotes ("")</p>
 <p align="left">Press Ctrl+S to save the file and Ctrl+X to exit the editor</p>
 <br clear="both">
 
