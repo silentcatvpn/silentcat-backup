@@ -33,7 +33,7 @@
 <p align="right">ابتدا این دستور را روی سرور خود اجرا می کنید</p>
   
 ```bash
-bash <(curl -Ls https://github.com/
+bash <(curl -Ls https://github.com/silentcatvpn/silentcat-backup/main/install-backup.sh)
 ``` 
 
 ###
