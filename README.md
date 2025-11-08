@@ -87,7 +87,7 @@ crontab -e
 ```bash
 0 */12 * * * /usr/local/bin/marzban-backup.sh >/dev/null 2>&1
 ``` 
-<p align="left">By default, this command runs every 12 hours. If desired, you can adjust the interval for the backups</p>
+<p align="left">By default, this command runs every 12 hours, If desired, you can adjust the interval for the backups</p>
 <p align="left">After adding the line, press Ctrl+S to save the file and Ctrl+X to exit the editor</p>
 <br clear="both">
 
