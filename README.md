@@ -66,15 +66,15 @@ chmod +x /usr/local/bin/marzban-backup.sh
 ``` 
 <br clear="both">
 
-<h3 align="right">مرحله آخر</h3>
-<h3 align="right">برای تنظیم کرون جاب ابتدا دستور زیر رو بزن</h3>
+<h3 align="right">تنظیم کرون جاب برای اجرای خودکار</h3>
+<h3 align="right">برای ویرایش کرون جاب‌ها، دستور زیر را اجرا کنید</h3>
   
 ```bash
 crontab -e
 ``` 
 <br clear="both">
 
-<h3 align="right">در انتهای فایل، دستور زیر را اضافه کنید</h3>
+<h3 align="right">در انتهای فایل کرون، دستور زیر را اضافه کنید</h3>
   
 ```bash
 0 */12 * * * /usr/local/bin/marzban-backup.sh >/dev/null 2>&1
@@ -83,7 +83,7 @@ crontab -e
 <p align="right">پس از افزودن دستور، با فشردن Ctrl+S فایل را ذخیره و با فشردن Ctrl+X از ویرایشگر خارج شوید</p>
 <br clear="both">
 
-<h3 align="right">پس از افزودن دستور، با فشردن Ctrl+S فایل را ذخیره و با فشردن Ctrl+X از ویرایشگر خارج شوید</h3>
+<h3 align="right">برای اجرای دستی و بررسی عملکرد اسکریپت، می‌توانید دستور زیر را اجرا کنید</h3>
   
 ```bash
 bash -x /usr/local/bin/marzban-backup.sh
