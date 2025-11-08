@@ -65,8 +65,26 @@ find "$DEST" -type f -name "marzban-backup.zip" -mtime +7 -delete
 <h3 align="right">مرحله سوم</h3>
 <h3 align="right">ساخت ربات تلگرام و دریافت API Token</h3>
 <p align="right">در https://t.me/BotFather یک ربات بسازید و توکن API آن را در قسمت BOT_TOKEN بین "" قرار دهید</p>
-
+###
 <h3 align="right">مرحله چهارم</h3>
 <h3 align="right">دریافت Chat ID</h3>
 <p align="right">رای دریافت Chat ID خود یک پیام از خود به ربات https://t.me/userinfobot فروارد کنید، سپس Chat ID خود را در قسمت CHAT_ID بین ""  قرار دهید</p>
 <p align="right">سپس ctrl+s برای ذخیره سازی و ctrl+x برای خروج را بزنید</p>
+###
+<h3 align="right">مرحله پنجم</h3>
+<h3 align="right">با دستور زیر مجوز اجرا فایل marzban-backup.sh رو صادر کن</h3>
+  
+```bash
+chmod +x /usr/local/bin/marzban-backup.sh
+``` 
+###
+<h3 align="right">مرحله ششم</h3>
+<h3 align="right">برای تنظیم کرون جاب ابتدا دستور زیر رو بزن</h3>
+  
+```bash
+crontab -e
+``` 
+<h3 align="right">حالا این رو به خط آخرش اضافه کن</h3>
+```bash
+0 */12 * * * /usr/local/bin/marzban-backup.sh >/dev/null 2>&1
+``` 
